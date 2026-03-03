@@ -26,7 +26,7 @@ namespace Exemplo1_MVC.Controllers
         {
             //gera uma view(exibição HTML
             //com todas as categorias (cat), cl
-            return View(categorias.OrderBy(cat => cat.CategoriaId ));
+            return View(categorias.OrderBy(cat => cat.CategoriaId));
         }
 
         public IActionResult Create()
@@ -51,6 +51,36 @@ namespace Exemplo1_MVC.Controllers
             //retorna uma view com os dados da categoria cujo id
             //foi passado como parâmetro
             return View(categorias.Where(cat => cat.CategoriaId == id).First());
+        }
+
+        public IActionResult Edit(int id)
+        {
+            return View(categorias.Where(cat => cat.CategoriaId == id).First());
+        }
+
+        [HttpPost]
+
+        public IActionResult Edit(Categoria categoria)
+        {
+            //remove a categoria atual que está sendo exibida na view
+            categorias.Remove(categorias.Where(cat => cat.CategoriaId == categoria.CategoriaId).First());
+            //adicona a categoria novamente atualizada
+            categorias.Add(categoria);
+            //redireciona a navegação para view Index
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Delete(int id)
+        {
+            return View(categorias.Where(cat => cat.CategoriaId == id).First());
+        }
+
+        [HttpPost]
+        public IActionResult Delete(Categoria categoria)
+        {
+            categorias.Remove(categorias.Where(cat => cat.CategoriaId == categoria.CategoriaId).First());
+
+            return RedirectToAction("Index");
         }
     }
 }
