@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jo_ga\\OneDrive\\\u00C1rea de Trabalho\\Celso\\Exemplo1_MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BD0B5A5-0377-4260-9341-E905894E6F4A}|Exemplo1_MVC\\Exemplo1_MVC.csproj|c:\\users\\jo_ga\\onedrive\\\u00E1rea de trabalho\\celso\\exemplo1_mvc\\exemplo1_mvc\\controllers\\produtocontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD0B5A5-0377-4260-9341-E905894E6F4A}|Exemplo1_MVC\\Exemplo1_MVC.csproj|solutionrelative:exemplo1_mvc\\controllers\\produtocontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BD0B5A5-0377-4260-9341-E905894E6F4A}|Exemplo1_MVC\\Exemplo1_MVC.csproj|c:\\users\\jo_ga\\onedrive\\\u00E1rea de trabalho\\celso\\exemplo1_mvc\\exemplo1_mvc\\views\\produto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD0B5A5-0377-4260-9341-E905894E6F4A}|Exemplo1_MVC\\Exemplo1_MVC.csproj|solutionrelative:exemplo1_mvc\\views\\produto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD0B5A5-0377-4260-9341-E905894E6F4A}|Exemplo1_MVC\\Exemplo1_MVC.csproj|c:\\users\\jo_ga\\onedrive\\\u00E1rea de trabalho\\celso\\exemplo1_mvc\\exemplo1_mvc\\controllers\\categoriacontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD0B5A5-0377-4260-9341-E905894E6F4A}|Exemplo1_MVC\\Exemplo1_MVC.csproj|solutionrelative:exemplo1_mvc\\controllers\\categoriacontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BD0B5A5-0377-4260-9341-E905894E6F4A}|Exemplo1_MVC\\Exemplo1_MVC.csproj|c:\\users\\jo_ga\\onedrive\\\u00E1rea de trabalho\\celso\\exemplo1_mvc\\exemplo1_mvc\\views\\categoria\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BD0B5A5-0377-4260-9341-E905894E6F4A}|Exemplo1_MVC\\Exemplo1_MVC.csproj|solutionrelative:exemplo1_mvc\\views\\categoria\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,27 +39,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProdutoControllers.cs",
-              "DocumentMoniker": "C:\\Users\\jo_ga\\OneDrive\\\u00C1rea de Trabalho\\Celso\\Exemplo1_MVC\\Exemplo1_MVC\\Controllers\\ProdutoControllers.cs",
-              "RelativeDocumentMoniker": "Exemplo1_MVC\\Controllers\\ProdutoControllers.cs",
-              "ToolTip": "C:\\Users\\jo_ga\\OneDrive\\\u00C1rea de Trabalho\\Celso\\Exemplo1_MVC\\Exemplo1_MVC\\Controllers\\ProdutoControllers.cs",
-              "RelativeToolTip": "Exemplo1_MVC\\Controllers\\ProdutoControllers.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAUwDUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T22:03:37.678Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jo_ga\\OneDrive\\\u00C1rea de Trabalho\\Celso\\Exemplo1_MVC\\Exemplo1_MVC\\Views\\Produto\\Create.cshtml",
+              "RelativeDocumentMoniker": "Exemplo1_MVC\\Views\\Produto\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jo_ga\\OneDrive\\\u00C1rea de Trabalho\\Celso\\Exemplo1_MVC\\Exemplo1_MVC\\Views\\Produto\\Create.cshtml*",
+              "RelativeToolTip": "Exemplo1_MVC\\Views\\Produto\\Create.cshtml*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T23:59:46.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoriaControllers.cs",
-              "DocumentMoniker": "C:\\Users\\jo_ga\\OneDrive\\\u00C1rea de Trabalho\\Celso\\Exemplo1_MVC\\Exemplo1_MVC\\Controllers\\CategoriaControllers.cs",
-              "RelativeDocumentMoniker": "Exemplo1_MVC\\Controllers\\CategoriaControllers.cs",
-              "ToolTip": "C:\\Users\\jo_ga\\OneDrive\\\u00C1rea de Trabalho\\Celso\\Exemplo1_MVC\\Exemplo1_MVC\\Controllers\\CategoriaControllers.cs",
-              "RelativeToolTip": "Exemplo1_MVC\\Controllers\\CategoriaControllers.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwCkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T22:03:33.343Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jo_ga\\OneDrive\\\u00C1rea de Trabalho\\Celso\\Exemplo1_MVC\\Exemplo1_MVC\\Views\\Categoria\\Create.cshtml",
+              "RelativeDocumentMoniker": "Exemplo1_MVC\\Views\\Categoria\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jo_ga\\OneDrive\\\u00C1rea de Trabalho\\Celso\\Exemplo1_MVC\\Exemplo1_MVC\\Views\\Categoria\\Create.cshtml",
+              "RelativeToolTip": "Exemplo1_MVC\\Views\\Categoria\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T23:59:43.232Z",
               "EditorCaption": ""
             }
           ]
