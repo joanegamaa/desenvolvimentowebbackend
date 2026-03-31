@@ -2,8 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using X.PagedList;
 
-namespace ExemploEF.Controllers
+
+namespace Aula_EF.Controllers
 {
     public class ProdutoController : Controller
     {
@@ -12,13 +14,17 @@ namespace ExemploEF.Controllers
         {
             context = ctx;
         }
-        public IActionResult Index()
+        public IActionResult Index(int pagina = 1)
         {
             //retorna uma view com todos os produtos
             //o métoto Include carrega a associação com Fabricante
             return View(context.Produtos
-                .Include(f => f.Fabricante));
+                .Include(f => f.Fabricante)
+
+            //converte o resultado 
+            .ToPagedList(pagina, 3));
         }
+           
 
         public IActionResult Create()
         {
